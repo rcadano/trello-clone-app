@@ -1,0 +1,21 @@
+<!-- Hint window -->
+
+<form class="noMargin" name="newCardForm">
+    <div class="modal-header">
+        <button type="button" class="close" ng-click="close()">&times;</button>
+        <h4 class="modal-title" ng-model="columnName">How to use the application...</h4>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <p> Click the <span class="glyphicon glyphicon-plus"> </span> icon to add card. </p>
+            <p> Click the <span class="glyphicon glyphicon-remove"> </span> icon to delete the card. </p>
+            <p> Click the <span class="glyphicon glyphicon-pencil"> </span> icon to modify the card. </p>
+            <p> Click the <span class="glyphicon glyphicon-tint"> </span> icon to edit color. </p>
+            <p> Click the <img src="images/deleteAll.jpg"> button to delete all cards. </p>
+            <p> Click the <img src="images/resetColors.jpg"> button to reset color of cards. </p>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" ng-click="close()">Close</button>
+    </div>
+</form>
